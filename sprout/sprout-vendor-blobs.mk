@@ -31,12 +31,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/google/sprout/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/google/sprout/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
-    vendor/google/sprout/proprietary/etc/firmware/ROMv1_patch_1_0_hdr.bin:system/etc/firmware/ROMv1_patch_1_0_hdr.bin \
-    vendor/google/sprout/proprietary/etc/firmware/ROMv1_patch_1_1_hdr.bin:system/etc/firmware/ROMv1_patch_1_1_hdr.bin \
-    vendor/google/sprout/proprietary/etc/firmware/WIFI_RAM_CODE_SOC:system/etc/firmware/WIFI_RAM_CODE_SOC \
+    vendor/google/sprout/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
+    vendor/google/sprout/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
+    vendor/google/sprout/proprietary/etc/firmware/S_ANDRO_SFL.ini:system/etc/firmware/S_ANDRO_SFL.ini \
+    vendor/google/sprout/proprietary/etc/firmware/WIFI_RAM_CODE_6735:system/etc/firmware/WIFI_RAM_CODE_6735 \
     vendor/google/sprout/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
-    vendor/google/sprout/proprietary/etc/firmware/catcher_filter_1_wg_n.bin:system/etc/firmware/catcher_filter_1_wg_n.bin \
-    vendor/google/sprout/proprietary/etc/firmware/modem_1_wg_n.img:system/etc/firmware/modem_1_wg_n.img \
+    vendor/google/sprout/proprietary/etc/firmware/catcher_filter_1_lwg_n.bin:system/etc/firmware/catcher_filter_1_lwg_n.bin \
+    vendor/google/sprout/proprietary/etc/firmware/dsp_1_lwg_n.bin:system/etc/firmware/dsp_1_lwg_n.bin \
+    vendor/google/sprout/proprietary/etc/firmware/modem_1_lwg_n.img:system/etc/firmware/modem_1_lwg_n.img \
     vendor/google/sprout/proprietary/etc/firmware/mt6627/mt6627_fm_v1_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v1_coeff.bin \
     vendor/google/sprout/proprietary/etc/firmware/mt6627/mt6627_fm_v1_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v1_patch.bin \
     vendor/google/sprout/proprietary/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin \
@@ -51,21 +53,18 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/google/sprout/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/google/sprout/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/google/sprout/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
-    vendor/google/sprout/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
-    vendor/google/sprout/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/google/sprout/proprietary/lib/hw/audio.primary.mt6582.so:system/lib/hw/audio.primary.mt6582.so \
-    vendor/google/sprout/proprietary/lib/hw/camera.mt6582.so:system/lib/hw/camera.mt6582.so \
+    vendor/google/sprout/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/google/sprout/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/google/sprout/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
+    vendor/google/sprout/proprietary/lib/hw/audio.primary.mt6735m.so:system/lib/hw/audio.primary.mt6735m.so \
+    vendor/google/sprout/proprietary/lib/hw/camera.mt6735m.so:system/lib/hw/camera.mt6735m.so \
     vendor/google/sprout/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/google/sprout/proprietary/lib/hw/gralloc.mt6582.so:system/lib/hw/gralloc.mt6582.so \
-    vendor/google/sprout/proprietary/lib/hw/hwcomposer.mt6582.so:system/lib/hw/hwcomposer.mt6582.so \
+    vendor/google/sprout/proprietary/lib/hw/gralloc.mt6735m.so:system/lib/hw/gralloc.mt6735m.so \
+    vendor/google/sprout/proprietary/lib/hw/hwcomposer.mt6735m.so:system/lib/hw/hwcomposer.mt6735m.so \
     vendor/google/sprout/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
-    vendor/google/sprout/proprietary/lib/hw/memtrack.mt6582.so:system/lib/hw/memtrack.mt6582.so \
-    vendor/google/sprout/proprietary/lib/hw/radio.fm.mt6582.so:system/lib/hw/radio.fm.mt6582.so \
-    vendor/google/sprout/proprietary/lib/hw/sensors.mt6582.so:system/lib/hw/sensors.mt6582.so \
+    vendor/google/sprout/proprietary/lib/hw/sensors.mt6735m.so:system/lib/hw/sensors.mt6735m.so \
     vendor/google/sprout/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/google/sprout/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
-    vendor/google/sprout/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/google/sprout/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/google/sprout/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
     vendor/google/sprout/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
@@ -75,14 +74,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/google/sprout/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/google/sprout/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
-    vendor/google/sprout/proprietary/lib/libaudiopolicymanagersprout.so:system/lib/libaudiopolicymanagersprout.so \
+    vendor/google/sprout/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
     vendor/google/sprout/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/google/sprout/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/google/sprout/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/google/sprout/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
     vendor/google/sprout/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
-    vendor/google/sprout/proprietary/lib/libbluetooth_mtk_pure.so:system/lib/libbluetooth_mtk_pure.so \
-    vendor/google/sprout/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/google/sprout/proprietary/lib/libbwc.so:system/lib/libbwc.so \
     vendor/google/sprout/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
     vendor/google/sprout/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
@@ -113,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
     vendor/google/sprout/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
     vendor/google/sprout/proprietary/lib/libcamdrv_FrmB.so:system/lib/libcamdrv_FrmB.so \
+    vendor/google/sprout/proprietary/lib/libcamera_client_mtk.so:system/lib/libcamera_client_mtk.so \
     vendor/google/sprout/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/google/sprout/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/google/sprout/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
@@ -137,14 +135,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/google/sprout/proprietary/lib/libmtk_mali_user.so:system/lib/libmtk_mali_user.so \
     vendor/google/sprout/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
-    vendor/google/sprout/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
     vendor/google/sprout/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/google/sprout/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
     vendor/google/sprout/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/google/sprout/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/google/sprout/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/google/sprout/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
-    vendor/google/sprout/proprietary/lib/libsched.so:system/lib/libsched.so \
     vendor/google/sprout/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/google/sprout/proprietary/lib/libssladp.so:system/lib/libssladp.so \
     vendor/google/sprout/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
@@ -153,10 +149,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/google/sprout/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/google/sprout/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/google/sprout/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    vendor/google/sprout/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
     vendor/google/sprout/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/google/sprout/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/google/sprout/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/google/sprout/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/google/sprout/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/google/sprout/proprietary/xbin/mnld:system/xbin/mnld
