@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/6620_launcher:system/bin/6620_launcher \
+    vendor/oukitel/k4000pro/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
     vendor/oukitel/k4000pro/proprietary/bin/bmc156d:system/bin/bmc156d \
     vendor/oukitel/k4000pro/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/oukitel/k4000pro/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
@@ -68,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/oukitel/k4000pro/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/oukitel/k4000pro/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
     vendor/oukitel/k4000pro/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
@@ -112,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libcamdrv_FrmB.so:system/lib/libcamdrv_FrmB.so \
     vendor/oukitel/k4000pro/proprietary/lib/libcamera_client_mtk.so:system/lib/libcamera_client_mtk.so \
     vendor/oukitel/k4000pro/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
     vendor/oukitel/k4000pro/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/oukitel/k4000pro/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/oukitel/k4000pro/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
@@ -121,6 +124,8 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/oukitel/k4000pro/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
     vendor/oukitel/k4000pro/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libged.so:system/lib/libged.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
     vendor/oukitel/k4000pro/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
     vendor/oukitel/k4000pro/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/oukitel/k4000pro/proprietary/lib/libimageio.so:system/lib/libimageio.so \
@@ -132,6 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmnl.so:system/lib/libmnl.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmtk_mali_user.so:system/lib/libmtk_mali_user.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
@@ -140,10 +146,13 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/oukitel/k4000pro/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/oukitel/k4000pro/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
     vendor/oukitel/k4000pro/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/oukitel/k4000pro/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/oukitel/k4000pro/proprietary/lib/libssladp.so:system/lib/libssladp.so \
     vendor/oukitel/k4000pro/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/oukitel/k4000pro/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
     vendor/oukitel/k4000pro/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/oukitel/k4000pro/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
