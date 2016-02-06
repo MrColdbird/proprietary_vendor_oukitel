@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/oukitel/k4000pro/proprietary/lib/libbluetoothdrv.so:system/lib/libbluetoothdrv.so \
     vendor/oukitel/k4000pro/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/oukitel/k4000pro/proprietary/lib/libbwc.so:system/lib/libbwc.so \
     vendor/oukitel/k4000pro/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
     vendor/oukitel/k4000pro/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
@@ -157,9 +158,18 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmtk_mali_user.so:system/lib/libmtk_mali_user.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/oukitel/k4000pro/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
