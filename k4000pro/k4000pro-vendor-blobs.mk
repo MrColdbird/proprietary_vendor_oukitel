@@ -16,6 +16,10 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/6620_launcher:system/bin/6620_launcher \
+    vendor/oukitel/k4000pro/proprietary/bin/aee:system/bin/aee \
+    vendor/oukitel/k4000pro/proprietary/bin/aee_archive:system/bin/aee_archive \
+    vendor/oukitel/k4000pro/proprietary/bin/aee_core_forwarder:system/bin/aee_core_forwarder \
+    vendor/oukitel/k4000pro/proprietary/bin/aee_dumpstate:system/bin/aee_dumpstate \
     vendor/oukitel/k4000pro/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
     vendor/oukitel/k4000pro/proprietary/bin/autokd:system/bin/autokd \
     vendor/oukitel/k4000pro/proprietary/bin/bmc156d:system/bin/bmc156d \
