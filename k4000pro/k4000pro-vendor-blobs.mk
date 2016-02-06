@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/6620_launcher:system/bin/6620_launcher \
     vendor/oukitel/k4000pro/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
+    vendor/oukitel/k4000pro/proprietary/bin/autokd:system/bin/autokd \
     vendor/oukitel/k4000pro/proprietary/bin/bmc156d:system/bin/bmc156d \
     vendor/oukitel/k4000pro/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/oukitel/k4000pro/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
