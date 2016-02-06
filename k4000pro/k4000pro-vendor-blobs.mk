@@ -33,6 +33,11 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/oukitel/k4000pro/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/oukitel/k4000pro/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+    vendor/oukitel/k4000pro/proprietary/etc/bluetooth/auto_pair_blacklist.conf:system/etc/bluetooth/auto_pair_blacklist.conf \
+    vendor/oukitel/k4000pro/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
+    vendor/oukitel/k4000pro/proprietary/etc/bluetooth/btconfig.xml:system/etc/bluetooth/btconfig.xml \
+    vendor/oukitel/k4000pro/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+    vendor/oukitel/k4000pro/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/oukitel/k4000pro/proprietary/etc/firmware/catcher_filter_1_lwg_n.bin:system/etc/firmware/catcher_filter_1_lwg_n.bin \
     vendor/oukitel/k4000pro/proprietary/etc/firmware/dsp_1_lwg_n.bin:system/etc/firmware/dsp_1_lwg_n.bin \
     vendor/oukitel/k4000pro/proprietary/etc/firmware/modem_1_lwg_n.img:system/etc/firmware/modem_1_lwg_n.img \
