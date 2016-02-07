@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/oukitel/k4000pro/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/oukitel/k4000pro/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/oukitel/k4000pro/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/oukitel/k4000pro/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/oukitel/k4000pro/proprietary/lib/hw/audio.primary.mt6735m.so:system/lib/hw/audio.primary.mt6735m.so \
     vendor/oukitel/k4000pro/proprietary/lib/hw/camera.mt6735m.so:system/lib/hw/camera.mt6735m.so \
