@@ -90,6 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
     vendor/oukitel/k4000pro/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/oukitel/k4000pro/proprietary/lib/libbwc.so:system/lib/libbwc.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libcam.sdkclient.so:system/lib/libcam.sdkclient.so \
     vendor/oukitel/k4000pro/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
     vendor/oukitel/k4000pro/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
     vendor/oukitel/k4000pro/proprietary/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
