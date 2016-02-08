@@ -146,6 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/oukitel/k4000pro/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/oukitel/k4000pro/proprietary/lib/libion.so:system/lib/libion.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/oukitel/k4000pro/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/oukitel/k4000pro/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
