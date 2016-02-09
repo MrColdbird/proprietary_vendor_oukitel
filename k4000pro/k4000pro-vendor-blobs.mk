@@ -165,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
-    vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
     vendor/oukitel/k4000pro/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
@@ -188,7 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/oukitel/k4000pro/proprietary/lib/libssladp.so:system/lib/libssladp.so \
     vendor/oukitel/k4000pro/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/oukitel/k4000pro/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
     vendor/oukitel/k4000pro/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/oukitel/k4000pro/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/oukitel/k4000pro/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
