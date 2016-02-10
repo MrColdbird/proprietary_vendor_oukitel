@@ -27,11 +27,13 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
     vendor/oukitel/k4000pro/proprietary/bin/drvbd:system/bin/drvbd \
     vendor/oukitel/k4000pro/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
+    vendor/oukitel/k4000pro/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
     vendor/oukitel/k4000pro/proprietary/bin/lsm303md:system/bin/lsm303md \
     vendor/oukitel/k4000pro/proprietary/bin/md_ctrl:system/bin/md_ctrl \
     vendor/oukitel/k4000pro/proprietary/bin/msensord:system/bin/msensord \
     vendor/oukitel/k4000pro/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/oukitel/k4000pro/proprietary/bin/mtkrild:system/bin/mtkrild \
+    vendor/oukitel/k4000pro/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/oukitel/k4000pro/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/oukitel/k4000pro/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/oukitel/k4000pro/proprietary/bin/thermal_manager:system/bin/thermal_manager \
