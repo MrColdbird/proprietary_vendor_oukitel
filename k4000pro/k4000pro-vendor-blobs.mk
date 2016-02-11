@@ -186,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
     vendor/oukitel/k4000pro/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
     vendor/oukitel/k4000pro/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
+    vendor/oukitel/k4000pro/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
     vendor/oukitel/k4000pro/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/oukitel/k4000pro/proprietary/lib/libssladp.so:system/lib/libssladp.so \
     vendor/oukitel/k4000pro/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
