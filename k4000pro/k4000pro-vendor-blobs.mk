@@ -200,6 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/oukitel/k4000pro/proprietary/lib/libwapi.so:system/lib/libwapi.so \
     vendor/oukitel/k4000pro/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
+    vendor/oukitel/k4000pro/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rildmd2.so \
     vendor/oukitel/k4000pro/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oukitel/k4000pro/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/oukitel/k4000pro/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
