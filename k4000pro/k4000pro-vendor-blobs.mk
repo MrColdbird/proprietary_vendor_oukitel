@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/oukitel/k4000pro/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/oukitel/k4000pro/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
+    vendor/oukitel/k4000pro/proprietary/bin/terservice:system/bin/terservice \
     vendor/oukitel/k4000pro/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/oukitel/k4000pro/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/oukitel/k4000pro/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
@@ -191,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libssladp.so:system/lib/libssladp.so \
     vendor/oukitel/k4000pro/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/oukitel/k4000pro/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libterservice.so:system/lib/libterservice.so \
     vendor/oukitel/k4000pro/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/oukitel/k4000pro/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/oukitel/k4000pro/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
