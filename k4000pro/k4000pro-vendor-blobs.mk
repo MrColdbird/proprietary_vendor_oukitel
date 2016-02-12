@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
     vendor/oukitel/k4000pro/proprietary/bin/autokd:system/bin/autokd \
     vendor/oukitel/k4000pro/proprietary/bin/bmc156d:system/bin/bmc156d \
+    vendor/oukitel/k4000pro/proprietary/bin/pq:system/bin/pq \
     vendor/oukitel/k4000pro/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/oukitel/k4000pro/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
     vendor/oukitel/k4000pro/proprietary/bin/drvbd:system/bin/drvbd \
@@ -185,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
     vendor/oukitel/k4000pro/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/oukitel/k4000pro/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
     vendor/oukitel/k4000pro/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
     vendor/oukitel/k4000pro/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/oukitel/k4000pro/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
