@@ -37,6 +37,9 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/oukitel/k4000pro/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/oukitel/k4000pro/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
+    vendor/oukitel/k4000pro/proprietary/bin/permission_check:system/bin/permission_check \
+    vendor/oukitel/k4000pro/proprietary/bin/pppd_btdun:system/bin/pppd_btdun \
+    vendor/oukitel/k4000pro/proprietary/bin/pppd_dt:system/bin/pppd_dt \
     vendor/oukitel/k4000pro/proprietary/bin/terservice:system/bin/terservice \
     vendor/oukitel/k4000pro/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/oukitel/k4000pro/proprietary/bin/wmt_loader:system/bin/wmt_loader \
@@ -186,6 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
     vendor/oukitel/k4000pro/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/oukitel/k4000pro/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libpppbtdun.so:system/lib/libpppbtdun.so \
     vendor/oukitel/k4000pro/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
     vendor/oukitel/k4000pro/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
     vendor/oukitel/k4000pro/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
