@@ -36,6 +36,8 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/mtkrild:system/bin/mtkrild \
     vendor/oukitel/k4000pro/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/oukitel/k4000pro/proprietary/bin/muxreport:system/bin/muxreport \
+    vendor/oukitel/k4000pro/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
+    vendor/oukitel/k4000pro/proprietary/bin/nvram_backup_binder:system/bin/nvram_backup_binder \
     vendor/oukitel/k4000pro/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/oukitel/k4000pro/proprietary/bin/permission_check:system/bin/permission_check \
     vendor/oukitel/k4000pro/proprietary/bin/pppd_btdun:system/bin/pppd_btdun \
