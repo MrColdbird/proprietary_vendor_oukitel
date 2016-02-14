@@ -40,6 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/permission_check:system/bin/permission_check \
     vendor/oukitel/k4000pro/proprietary/bin/pppd_btdun:system/bin/pppd_btdun \
     vendor/oukitel/k4000pro/proprietary/bin/pppd_dt:system/bin/pppd_dt \
+    vendor/oukitel/k4000pro/proprietary/bin/program_binary_service:system/bin/program_binary_service \
+    vendor/oukitel/k4000pro/proprietary/bin/sbchk:system/bin/sbchk \
     vendor/oukitel/k4000pro/proprietary/bin/terservice:system/bin/terservice \
     vendor/oukitel/k4000pro/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/oukitel/k4000pro/proprietary/bin/wmt_loader:system/bin/wmt_loader \
