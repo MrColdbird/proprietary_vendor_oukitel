@@ -23,6 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
     vendor/oukitel/k4000pro/proprietary/bin/autokd:system/bin/autokd \
     vendor/oukitel/k4000pro/proprietary/bin/bmc156d:system/bin/bmc156d \
+    vendor/oukitel/k4000pro/proprietary/bin/dualmdlogger:system/bin/dualmdlogger \
+    vendor/oukitel/k4000pro/proprietary/bin/emdlogger1:system/bin/emdlogger1 \
+    vendor/oukitel/k4000pro/proprietary/bin/mdlogger:system/bin/mdlogger \
     vendor/oukitel/k4000pro/proprietary/bin/pq:system/bin/pq \
     vendor/oukitel/k4000pro/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/oukitel/k4000pro/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
@@ -160,6 +163,8 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/k4000pro/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/oukitel/k4000pro/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/oukitel/k4000pro/proprietary/lib/libm4u.so:system/lib/libm4u.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libmdloggerrecycle.so:system/lib/libmdloggerrecycle.so \
+    vendor/oukitel/k4000pro/proprietary/lib/libmemoryDumpEncoder.so:system/lib/libmemoryDumpEncoder.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/oukitel/k4000pro/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
